@@ -1,0 +1,56 @@
+
+/* Обновленные стили для логотипа без рамки и с фоном */
+body {
+    background-image: url('sushi-bg.jpg'); /* Фон с изображением суши */
+    background-size: cover;
+    background-position: center;
+}
+
+.logo-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.logo-circle {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.8); /* Форма с полупрозрачным фоном */
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+}
