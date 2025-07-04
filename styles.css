@@ -1,5 +1,5 @@
 
-/* Центрируем логотип и контент */
+/* Центрируем логотип и контент на странице */
 body {
     display: flex;
     justify-content: center;
@@ -7,6 +7,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0;
+    text-align: center;
 }
 
 .logo-container {
@@ -15,7 +16,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     display: block;
-    margin-bottom: 20px;  /* Добавляем отступ снизу */
+    margin: 10px 0;
 }
 
 .logo-circle {
