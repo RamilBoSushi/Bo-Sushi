@@ -16,7 +16,9 @@ body {
     border-radius: 50%;
     overflow: hidden;
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
+    position: relative;
+    left: 0;
 }
 
 .logo-circle {
